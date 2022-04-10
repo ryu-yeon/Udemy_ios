@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -46,7 +46,7 @@
                                                             <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JjL-mW-TBA"/>
+                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AOs-LI-TYg"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7y6-Kf-yF0">
@@ -60,7 +60,7 @@
                                                             <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ttq-jG-vTL"/>
+                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vzX-mh-ffo"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UtR-dU-EKt">
@@ -74,7 +74,7 @@
                                                             <color key="titleColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rk1-0g-nke"/>
+                                                            <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHU-y2-q9B"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -112,7 +112,7 @@
                                                         </constraints>
                                                         <color key="tintColor" red="0.0" green="0.59227246050000004" blue="0.347086966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <connections>
-                                                            <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="qO5-qo-j1m"/>
+                                                            <action selector="stepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Fuc-SH-wXK"/>
                                                         </connections>
                                                     </stepper>
                                                 </subviews>
@@ -180,7 +180,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="calculaterPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lpl-Fg-oFT"/>
+                                    <action selector="calculateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tVD-JC-UFk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -199,22 +199,22 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="billTextField" destination="wcN-ka-Q4F" id="9Dr-XP-n4Y"/>
-                        <outlet property="splitNumberLabel" destination="bSy-Yc-886" id="lWE-dY-Y7S"/>
-                        <outlet property="tenPctButton" destination="7y6-Kf-yF0" id="7aG-3i-zm8"/>
-                        <outlet property="twentyPctButton" destination="UtR-dU-EKt" id="cvi-gQ-mhe"/>
-                        <outlet property="zeroPctButton" destination="XzR-0E-Xf7" id="d8Q-GQ-WAc"/>
-                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResult" id="UdL-Hr-0EP"/>
+                        <outlet property="billTextField" destination="wcN-ka-Q4F" id="zql-wq-ZFk"/>
+                        <outlet property="splitNumberLabel" destination="bSy-Yc-886" id="Ts4-DM-fjr"/>
+                        <outlet property="tenPctButton" destination="7y6-Kf-yF0" id="h8u-Bb-Drs"/>
+                        <outlet property="twentyPctButton" destination="UtR-dU-EKt" id="16L-Tj-Yaw"/>
+                        <outlet property="zeroPctButton" destination="XzR-0E-Xf7" id="ZrJ-ba-Oxg"/>
+                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResult" id="iBv-BL-81H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
         </scene>
-        <!--Results View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="bJV-Cc-sXH">
             <objects>
-                <viewController id="Dnf-m2-FPm" customClass="ResultsViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dnf-m2-FPm" customClass="ResultViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DNW-gk-FsX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -253,7 +253,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzn-9K-6hu">
-                                <rect key="frame" x="107" y="754" width="200" height="54"/>
+                                <rect key="frame" x="107" y="788" width="200" height="54"/>
                                 <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="0Lh-eY-3GO"/>
@@ -267,7 +267,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="recalculatePressed:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="E0n-LI-0ME"/>
+                                    <action selector="recalculatePressed:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="Vqo-Np-ImO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split between 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGt-bn-sCv">
@@ -294,8 +294,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="settingLabel" destination="HGt-bn-sCv" id="NmM-mK-L2J"/>
-                        <outlet property="totalLabel" destination="uLJ-ii-hft" id="thB-CG-tKY"/>
+                        <outlet property="settingsLabel" destination="HGt-bn-sCv" id="6vB-s0-oBV"/>
+                        <outlet property="totalLabel" destination="uLJ-ii-hft" id="wNZ-Jz-PaC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-Eb-NGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
